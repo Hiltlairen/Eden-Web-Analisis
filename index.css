@@ -31,7 +31,7 @@ body {
     font-size: 32px;
     position: absolute;
     bottom: 10px;
-    left: 120px;
+    left: 85px;
     transform: translateX(-50%);
     color: #fff; /* Cambia el color del texto según tu preferencia */
   }
@@ -39,7 +39,7 @@ body {
     font-size: 32px;
     position: absolute;
     bottom: 10px;
-    left: 370px;
+    left: 260px;
     transform: translateX(-50%);
     color: #fff; /* Cambia el color del texto según tu preferencia */
   }
@@ -47,7 +47,7 @@ body {
     font-size: 32px;
     position: absolute;
     bottom: 10px;
-    left: 605px;
+    left: 440px;
     transform: translateX(-50%);
     color: #fff; /* Cambia el color del texto según tu preferencia */
   }
