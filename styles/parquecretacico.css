@@ -1,0 +1,100 @@
+.cabeceraT{
+    width: 1366px;
+height: 356px;
+flex-shrink: 0;
+background: url(/img/parque-cretacico-fondo.jpg), lightgray 50% / cover no-repeat;
+}
+h1{
+    width: 901px;
+height: 140px;
+flex-shrink: 0;
+color: #FFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Rokkitt;
+font-size: 128px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+margin-left: 240px;
+}
+.sitioturisco1 {
+    width: 75px;
+    height: 75px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: url(/img/isla-del-sol-titicaca.jpg) lightgray 50% / cover no-repeat;
+    background-size: 150%; 
+  }
+  
+.sitioturisco2{
+    width: 75px;
+height: 75px;
+flex-shrink: 0;
+border-radius: 50px;
+background: url(/img/cerro-calvario.jpg), lightgray 50% / cover no-repeat;
+background-size: 150%;
+}
+.sitioturisco3{
+    width: 75px;
+height: 75px;
+flex-shrink: 0;
+border-radius: 50px;
+background: url(/img/catedral-copa.jpg), lightgray 50% / cover no-repeat;
+background-size: 150%;
+}
+p{
+    color: #FFF;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.botonesT {
+    display: flex;
+    align-items: center;
+    margin-left: 220px;
+}
+.BarraT{
+    display: flex;
+    align-items: center;
+}
+.img{
+    width: 516px;
+    height: 293px;
+    flex-shrink: 0;
+    background: url(/img/parque-cretasico-perf.jpg), lightgray 50% / cover no-repeat;
+    margin-top: 90px;
+    margin-left: 10px;
+
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+
+}
+.descripcion{
+    width: 685px;
+    height: 146px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 40px;
+    text-align: justify;
+}
+.ATRAS{
+
+    width: 191.168px;
+    height: 36.759px;
+    flex-shrink: 0;
+    border-radius: 250px;
+    background: #FF3D00;
+    box-shadow: 0px 4px 25px 0px #FF3D00;
+    margin-left: 60px;
+}
+

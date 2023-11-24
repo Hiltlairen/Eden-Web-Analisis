@@ -18,19 +18,22 @@ line-height: normal;
 text-align: center;
 margin-left: 240px;
 }
-.sitioturisco1{
+.sitioturisco1 {
     width: 75px;
-height: 75px;
-flex-shrink: 0;
-border-radius: 50px;
-background: url(/img/isla-del-sol-titicaca.jpg), lightgray 50% / cover no-repeat;
-}
+    height: 75px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: url(/img/isla-del-sol-titicaca.jpg) lightgray 50% / cover no-repeat;
+    background-size: 150%; 
+  }
+  
 .sitioturisco2{
     width: 75px;
 height: 75px;
 flex-shrink: 0;
 border-radius: 50px;
 background: url(/img/cerro-calvario.jpg), lightgray 50% / cover no-repeat;
+background-size: 150%;
 }
 .sitioturisco3{
     width: 75px;
@@ -38,6 +41,7 @@ height: 75px;
 flex-shrink: 0;
 border-radius: 50px;
 background: url(/img/catedral-copa.jpg), lightgray 50% / cover no-repeat;
+background-size: 150%;
 }
 p{
     color: #FFF;
