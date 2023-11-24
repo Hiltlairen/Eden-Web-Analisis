@@ -11,4 +11,27 @@ body, html {
   .enlace {
     margin-right: 10px; /* Espacio entre enlaces */
   }
-  
+  .boton-texto-Pando {
+    font-size: 120px;
+    position: absolute;
+    bottom: 10px;
+    left: 220px;
+    transform: translateX(-50%);
+    color: #fff; /* Cambia el color del texto según tu preferencia */
+  }
+  .boton-texto-Santa {
+    font-size: 90px;
+    position: absolute;
+    bottom: 10px;
+    left: 700px;
+    transform: translateX(-50%);
+    color: #fff; /* Cambia el color del texto según tu preferencia */
+  }
+  .boton-texto-Beni {
+    font-size: 120px;
+    position: absolute;
+    bottom: 10px;
+    left: 1150px;
+    transform: translateX(-50%);
+    color: #fff; /* Cambia el color del texto según tu preferencia */
+  }
