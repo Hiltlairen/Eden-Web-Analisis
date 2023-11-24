@@ -12,3 +12,27 @@ body, html {
     margin-right: 10px; /* Espacio entre enlaces */
   }
   
+  .boton-texto-LaPaz {
+    font-size: 120px;
+    position: absolute;
+    bottom: 10px;
+    left: 240px;
+    transform: translateX(-50%);
+    color: #fff; /* Cambia el color del texto según tu preferencia */
+  }
+  .boton-texto-Oruro {
+    font-size: 120px;
+    position: absolute;
+    bottom: 10px;
+    left: 700px;
+    transform: translateX(-50%);
+    color: #fff; /* Cambia el color del texto según tu preferencia */
+  }
+  .boton-texto-Potosi {
+    font-size: 120px;
+    position: absolute;
+    bottom: 10px;
+    left: 1200px;
+    transform: translateX(-50%);
+    color: #fff; /* Cambia el color del texto según tu preferencia */
+  }
