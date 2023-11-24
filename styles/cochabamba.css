@@ -1,0 +1,116 @@
+body {
+    background-image: url('/assets/cochabamba1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    width: 100vw; 
+    font-family: Arial, sans-serif;
+}
+nav{
+    color: white;
+}
+
+h1{
+    width: 494px;
+    height: 112px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left:  50px;
+    top:50px;
+    
+    }
+p{
+    color: rgba(255, 255, 255, 0.87);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 589px;
+    margin-left:  50px;
+}
+
+.ATRAS{
+    width: 137px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background: rgba(255, 188, 0, 0.90);
+    margin-left:  250px;
+    
+}
+
+.Destinos{
+    width: 240px;
+    height: 255px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: url(/assets/cochabamba1.jpg), lightgray 50% / cover no-repeat;
+    box-shadow: 1px 1px 2px 0px rgba(40, 141, 157, 0.39);
+}
+
+.primerimagen{
+    width: 219px;
+    height: 258px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: url(/assets/cochabamba2.png), lightgray 50% / cover no-repeat;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
+    margin-left:  700px; 
+}
+.segundaimagen{
+    width: 219px;
+    height: 258px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: url(/assets/cochabamba3.png), lightgray 50% / cover no-repeat;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
+    
+    
+}
+.terceraimagen{
+    width: 219px;
+    height: 258px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: url(/assets/cochabamba4.png), lightgray 50% / cover no-repeat;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+
+/* styles/navbar.css */
+
+.nav_bar {
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
+    background-color: #ffffff39;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_bar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.nav_bar a:hover {
+    background-color: rgba(255, 187, 0, 0.459);
+}
+
+  
+ 
