@@ -1,37 +1,54 @@
 body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-  }
-  
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #171717;
+}
+
+.contenedor {
+  display: flex;
+  height: 100vh;
+}
+
+.boton {
+  flex-grow: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.boton button {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.imagen {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Ajuste para dispositivos móviles */
+@media (max-width: 768px) {
   .contenedor {
-    display: flex;
+      flex-direction: column;
   }
 
-  .enlace {
-    margin-right: 10px; /* Espacio entre enlaces */
+  .boton {
+      margin-bottom: 10px;
   }
-  .boton-texto-Pando {
-    font-size: 120px;
-    position: absolute;
-    bottom: 10px;
-    left: 220px;
-    transform: translateX(-50%);
-    color: #fff; /* Cambia el color del texto según tu preferencia */
-  }
-  .boton-texto-Santa {
-    font-size: 90px;
-    position: absolute;
-    bottom: 10px;
-    left: 700px;
-    transform: translateX(-50%);
-    color: #fff; /* Cambia el color del texto según tu preferencia */
-  }
-  .boton-texto-Beni {
-    font-size: 120px;
-    position: absolute;
-    bottom: 10px;
-    left: 1150px;
-    transform: translateX(-50%);
-    color: #fff; /* Cambia el color del texto según tu preferencia */
-  }
+}
+.boton span {
+  font-size: 80px;
+  position: absolute;
+  bottom: 10px; /* Ajusta según sea necesario */
+  left: 10px; /* Ajusta según sea necesario */
+  color: white; /* Ajusta el color del texto */
+  font-weight: bold; /* Ajusta el peso de la fuente si es necesario */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra de texto para mayor visibilidad */
+}
+  

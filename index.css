@@ -1,10 +1,16 @@
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background: url('./img/edeb-fondo.png') no-repeat center center fixed;
-    background-size: cover;
-  }
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('./img/edeb-fondo.png') no-repeat center center fixed;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+h1{
+  color: #58595b;
+}
   
   header {
     background-color: transparent;
@@ -13,25 +19,32 @@ body {
     padding: 15px;
   }
   
-  .botones {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: flex;
-    margin-bottom: 50px;
-    
-  }
-  
-  .boton {
-    margin-right: 10px;
-    text-decoration: none;
-    border-radius: 100px;
-  }
+  /* Estilos para pantallas grandes */
+.botones {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.boton {
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 100px;
+  padding: 10px 20px;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+/* Media query para pantallas más pequeñas, como dispositivos móviles */
+
+
   .boton-texto-A {
     font-size: 32px;
     position: absolute;
     bottom: 10px;
-    left: 85px;
+    left: 100px;
     transform: translateX(-50%);
     color: #fff; /* Cambia el color del texto según tu preferencia */
   }
@@ -39,7 +52,7 @@ body {
     font-size: 32px;
     position: absolute;
     bottom: 10px;
-    left: 260px;
+    left: 320px;
     transform: translateX(-50%);
     color: #fff; /* Cambia el color del texto según tu preferencia */
   }
@@ -47,7 +60,7 @@ body {
     font-size: 32px;
     position: absolute;
     bottom: 10px;
-    left: 440px;
+    left: 530px;
     transform: translateX(-50%);
     color: #fff; /* Cambia el color del texto según tu preferencia */
   }
@@ -67,13 +80,13 @@ body {
 
 .logo-eden {
     
-    max-width: 55%; /* Ajusta según tu diseño */
+    max-width: 40%; /* Ajusta según tu diseño */
     max-height: 100vh; /* Ajusta según tu diseño */
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 40%;
+    margin-right: 30%;
   }
   
   #logo-eden  {
@@ -83,6 +96,62 @@ body {
     
     
   }
+  @media (max-width: 768px) {
+    .botones {
+        flex-direction: column; /* Cambia la dirección del eje principal para apilar los botones verticalmente */
+        align-items: flex-end; /* Alinea los botones a la derecha en lugar de al centro */
+        bottom: 10px; /* Ajusta la posición vertical según sea necesario */
+        right: 10px; /* Ajusta la posición horizontal según sea necesario */
+        margin-bottom: 20px; /* Ajusta el margen inferior según sea necesario */
+    }
+  
+    .boton {
+      margin-top: -30px;
+        margin-right: 0; /* Elimina el margen derecho para que no haya espacio entre los botones apilados */
+        margin-bottom: 10px; /* Agrega margen inferior para separar los botones apilados */
+        text-align: center; /* Centra el texto en los botones apilados */
+    }
+    .logo-eden {
+    
+      max-width: 40%; /* Ajusta según tu diseño */
+      max-height: 100vh; /* Ajusta según tu diseño */
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 1%;
+
+    }
+    .boton-texto-A {
+      font-size: 32px;
+      position: absolute;
+      bottom: 10px;
+      left: 100px;
+      top: 170px;
+      transform: translateX(-50%);
+      color: #fff; /* Cambia el color del texto según tu preferencia */
+    }
+    .boton-texto-L {
+      font-size: 32px;
+      position: absolute;
+      bottom: 10px;
+      left: 100px;
+      top: 400px;
+      transform: translateX(-50%);
+      color: #fff; /* Cambia el color del texto según tu preferencia */
+    }
+    .boton-texto-V {
+      font-size: 32px;
+      position: absolute;
+      bottom: 10px;
+      left: 100px;
+      top:620px;
+      transform: translateX(-50%);
+      color: #fff; /* Cambia el color del texto según tu preferencia */
+    }
+
+  }
+  
 
   /*BARRA DE NAVEGACION___________________________________________________*/
   
