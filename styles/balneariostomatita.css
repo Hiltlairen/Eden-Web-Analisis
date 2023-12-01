@@ -2,7 +2,7 @@
     width: 1366px;
 height: 356px;
 flex-shrink: 0;
-background: url(/img/balnearios-fond.jpg), lightgray 50% / cover no-repeat;
+background: url(../img/balnearios-fond.jpg), lightgray 50% / cover no-repeat;
 }
 h1{
     width: 901px;
@@ -23,7 +23,7 @@ margin-left: 240px;
     height: 75px;
     flex-shrink: 0;
     border-radius: 50px;
-    background: url(/img/isla-del-sol-titicaca.jpg) lightgray 50% / cover no-repeat;
+    background: url(../img/isla-del-sol-titicaca.jpg) lightgray 50% / cover no-repeat;
     background-size: 150%; 
   }
   
@@ -32,7 +32,7 @@ margin-left: 240px;
 height: 75px;
 flex-shrink: 0;
 border-radius: 50px;
-background: url(/img/cerro-calvario.jpg), lightgray 50% / cover no-repeat;
+background: url(../img/cerro-calvario.jpg), lightgray 50% / cover no-repeat;
 background-size: 150%;
 }
 .sitioturisco3{
@@ -40,7 +40,7 @@ background-size: 150%;
 height: 75px;
 flex-shrink: 0;
 border-radius: 50px;
-background: url(/img/catedral-copa.jpg), lightgray 50% / cover no-repeat;
+background: url(../img/catedral-copa.jpg), lightgray 50% / cover no-repeat;
 background-size: 150%;
 }
 p{
@@ -64,7 +64,7 @@ line-height: normal;
     width: 516px;
     height: 293px;
     flex-shrink: 0;
-    background: url(/img/balnearios-perf.jpg), lightgray 50% / cover no-repeat;
+    background: url(../img/balnearios-perf.jpg), lightgray 50% / cover no-repeat;
     margin-top: 90px;
     margin-left: 10px;
 

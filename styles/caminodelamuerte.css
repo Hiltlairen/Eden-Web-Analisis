@@ -2,7 +2,7 @@
     width: 1366px;
 height: 356px;
 flex-shrink: 0;
-background: url(/img/caminodelamuertefondo.jpg), lightgray 50% / cover no-repeat;
+background: url(../img/caminodelamuertefondo.jpg), lightgray 50% / cover no-repeat;
 }
 h1{
     width: 901px;
@@ -23,7 +23,7 @@ margin-left: 240px;
 height: 75px;
 flex-shrink: 0;
 border-radius: 50px;
-background: url(/img/senda-verde-refugio.jpg), lightgray 50% / cover no-repeat;
+background: url(../img/senda-verde-refugio.jpg), lightgray 50% / cover no-repeat;
 background-size: 150%;
 }
 .sitioturisco2{
@@ -31,7 +31,7 @@ background-size: 150%;
 height: 75px;
 flex-shrink: 0;
 border-radius: 50px;
-background: url(/img/Coroico-Bolivia.jpg), lightgray 50% / cover no-repeat;
+background: url(../img/Coroico-Bolivia.jpg), lightgray 50% / cover no-repeat;
 background-size: 150%;
 }
 .sitioturisco3{
@@ -39,7 +39,7 @@ background-size: 150%;
 height: 75px;
 flex-shrink: 0;
 border-radius: 50px;
-background: url(/img/Camino-de-la-muerte.jpg), lightgray 50% / cover no-repeat;
+background: url(../img/Camino-de-la-muerte.jpg), lightgray 50% / cover no-repeat;
 background-size: 150%;
 }
 p{
@@ -63,7 +63,7 @@ line-height: normal;
     width: 516px;
     height: 293px;
     flex-shrink: 0;
-    background: url(/img/caminodelamuerteperf.jpg), lightgray 50% / cover no-repeat;
+    background: url(../img/caminodelamuerteperf.jpg), lightgray 50% / cover no-repeat;
     margin-top: 90px;
     margin-left: 10px;
 

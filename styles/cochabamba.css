@@ -1,5 +1,5 @@
 body {
-    background-image: url('/assets/cochabamba1.jpg');
+    background-image: url('../assets/cochabamba1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -54,7 +54,7 @@ p{
     height: 255px;
     flex-shrink: 0;
     border-radius: 15px;
-    background: url(/assets/cochabamba1.jpg), lightgray 50% / cover no-repeat;
+    background: url(../assets/cochabamba1.jpg), lightgray 50% / cover no-repeat;
     box-shadow: 1px 1px 2px 0px rgba(40, 141, 157, 0.39);
 }
 
@@ -78,17 +78,17 @@ button {
 /* Estilos específicos para cada botón */
 .primerimagen {
     margin-left: 120%;
-    background: url('/assets/cochabamba2.png'), lightgray 50% / cover no-repeat;
+    background: url('../assets/cochabamba2.png'), lightgray 50% / cover no-repeat;
 }
 
 .segundaimagen {
     margin-left: 120%;
-    background: url('/assets/cochabamba3.png'), lightgray 50% / cover no-repeat;
+    background: url('../assets/cochabamba3.png'), lightgray 50% / cover no-repeat;
 }
 
 .terceraimagen {
     margin-left: 120%;
-    background: url('/assets/cochabamba4.png'), lightgray 50% / cover no-repeat;
+    background: url('../assets/cochabamba4.png'), lightgray 50% / cover no-repeat;
 }
 
 /* styles/navbar.css */

@@ -2,7 +2,7 @@
     width: 1366px;
 height: 356px;
 flex-shrink: 0;
-background: url(/assets/tuhuanaco.jpg), lightgray 50% / cover no-repeat;
+background: url(../assets/tuhuanaco.jpg), lightgray 50% / cover no-repeat;
 }
 h1{
     width: 901px;
@@ -23,21 +23,21 @@ margin-left: 240px;
 height: 75px;
 flex-shrink: 0;
 border-radius: 50px;
-background: url(/assets/sitioturistico.png), lightgray 50% / cover no-repeat;
+background: url(../assets/sitioturistico.png), lightgray 50% / cover no-repeat;
 }
 .sitioturisco2{
     width: 75px;
 height: 75px;
 flex-shrink: 0;
 border-radius: 50px;
-background: url(/assets/sitioturistico.png), lightgray 50% / cover no-repeat;
+background: url(../assets/sitioturistico.png), lightgray 50% / cover no-repeat;
 }
 .sitioturisco3{
     width: 75px;
 height: 75px;
 flex-shrink: 0;
 border-radius: 50px;
-background: url(/assets/sitioturistico.png), lightgray 50% / cover no-repeat;
+background: url(../assets/sitioturistico.png), lightgray 50% / cover no-repeat;
 }
 p{
     color: #FFF;
@@ -60,7 +60,7 @@ line-height: normal;
     width: 516px;
     height: 293px;
     flex-shrink: 0;
-    background: url(/assets/tihuanaco.jpg), lightgray 50% / cover no-repeat;
+    background: url(../assets/tihuanaco.jpg), lightgray 50% / cover no-repeat;
     margin-top: 90px;
     margin-left: 10px;
 
