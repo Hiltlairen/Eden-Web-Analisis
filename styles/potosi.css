@@ -8,6 +8,7 @@ body {
     height: 100vh; 
     width: 100vw; 
     font-family: Arial, sans-serif;
+    background-color: #171717;
 }
 nav{
     color: white;
@@ -56,33 +57,34 @@ p{
     background: url(/assets/potosi2.png), lightgray 50% / cover no-repeat;
     box-shadow: 1px 1px 2px 0px rgba(40, 141, 157, 0.39);
 }
+.botones {
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    width: 10%;
+    gap: 10px; /* Espacio entre los botones */
+}
 
-.primerimagen{
+/* Estilos para todos los botones */
+button {
     width: 219px;
     height: 258px;
     flex-shrink: 0;
     border-radius: 15px;
-    background: url(/assets/potosi2.png), lightgray 50% / cover no-repeat;
+    background-size: cover;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
-    margin-left:  700px; 
 }
-.segundaimagen{
-    width: 219px;
-    height: 258px;
-    flex-shrink: 0;
-    border-radius: 15px;
-    background: url(/assets/potosi3.png), lightgray 50% / cover no-repeat;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
-    
-    
+
+.primerimagen {
+    margin-left: 120%;
+    background: url('/assets/potosi2.png'), lightgray 50% / cover no-repeat;
 }
-.terceraimagen{
-    width: 219px;
-    height: 258px;
-    flex-shrink: 0;
-    border-radius: 15px;
-    background: url(/assets/potosi4.png), lightgray 50% / cover no-repeat;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
+.segundaimagen {
+    margin-left: 120%;
+    background: url('/assets/potosi3.png'), lightgray 50% / cover no-repeat;
+}
+.terceraimagen {
+    margin-left: 120%;
+    background: url('/assets/potosi4.png'), lightgray 50% / cover no-repeat;
 }
 
 
